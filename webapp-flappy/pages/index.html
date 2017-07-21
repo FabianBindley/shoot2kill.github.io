@@ -1,0 +1,82 @@
+<html>
+<!DOCTYPE html>
+
+<head>
+  <div class="col-xs-1">
+    <title>Annoyed Bird!</title>
+  </div>
+  <link rel="stylesheet" href="../assets/style.css"/>
+  <link rel="stylesheet" href="../lib/bootstrap.css"/>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 style="font-size: 35px" >Annoyed Bird!</h1>
+      <p style="font-size: 20px" >Welcome to Annoyed Bird.</p>
+    </div>
+  </div>
+
+    <!--<p>
+     id="gamelink">
+      <a href="game.html">Click here to enter the game</a>
+
+    </p>-->
+    <div class="row">
+        <div class="col-md-6">
+          <p id="gamelink">
+            <a href="game.html">
+              <img src="../assets/screengrab.png" class="img-rounded img-responsive" />
+            </a>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="../assets/redbird.png" class="img-rounded img-responsive" />
+        </div>
+
+    </div>
+    <div class="col-xs-7">
+      <p style="font-size: 26px">How to play the game:</p>
+      <ul>
+        <li style="font-size: 20px"> Press SPACE to flap your wings.</li>
+        <li style="font-size: 20px"> Avoid the pipes.</li>
+        <li style="font-size: 20px"> If you crash, just try again!</li>
+        <li style="font-size: 20px"> Balloons make you lighter, weights heavier and wrenches narrow the gap.</li>
+        <li style="font-size: 20px"> Scroll down to play or to play on a different page click the picture (reload to restart and no scoreboard)... Good Luck!</li>
+      </ul>
+      <div class="container">
+
+        <div class="jumbotron">
+          <h1 style="font-size: 40px" > Annoyed Bird!</h1>
+          <p style= "font-size: 30px" > Welcome to the best flappy bird game. </p>
+        </div>
+        <div class="row">
+
+          <div class="col-xs-9">
+            <div id="game"> </div>
+          </div>
+
+          <div class="col-xs-3">
+            <p id="hiscore" style= "font-size: 20px" > Here are your previous High-Scores :</p>
+            <ol>
+              <li  style= "font-size: 15px" class="gold"></li>
+              <li  style= "font-size: 15px" class="silver"></li>
+              <li  style= "font-size: 15px" class="bronze"></li>
+            <ol>
+          </div>
+        </div>
+
+      </div>
+      <div id="game"></div>
+
+    </div>
+
+    <div style="font-size: 30px" class="gold" id="credits">Creators</div>
+
+     <script type="text/javascript" src="../lib/jquery.js"></script>
+     <script type="text/javascript" src="../js/interactivity.js"></script>
+     <script type="text/javascript" src="../lib/phaser.min.js"></script>
+     <script type="text/javascript" src="../js/flappy.js"></script>
+   </body>
+
+</html>
